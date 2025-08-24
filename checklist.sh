@@ -6,6 +6,7 @@ sudo apt install nvidia-driver
 
 # dev
 curl -f https://zed.dev/install.sh | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install terminator
 sudo apt install guake
 
