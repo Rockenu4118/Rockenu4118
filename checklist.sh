@@ -6,6 +6,7 @@ sudo apt install nvidia-driver
 
 #general
 sudo apt install flatpak
+ssh-keygen -t rsa -b 4096 -C "rockenu4118@gmail.com"
 
 # dev
 curl -f https://zed.dev/install.sh | sh
