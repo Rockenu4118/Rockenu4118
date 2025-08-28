@@ -9,6 +9,7 @@ sudo apt install flatpak
 ssh-keygen -t rsa -b 4096 -C "example@gmail.com"
 
 # dev
+sudo apt install git
 curl -f https://zed.dev/install.sh | sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install terminator
